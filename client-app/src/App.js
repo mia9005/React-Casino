@@ -6,6 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import React, { useState } from 'react';
+import SlotMachine from './SlotMachine';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Navigation></Navigation>
       <Header></Header>
       <Zalpa></Zalpa>
-      <Slot></Slot>
+      <SlotMachine></SlotMachine>
       <Footer></Footer>
     </div>
   );
