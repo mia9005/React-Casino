@@ -27,7 +27,7 @@ function Navigation() {
       <Nav className="me-auto">
         <Nav.Link href="#" style={{fontSize:'30px'}}>Start</Nav.Link>
         <Nav.Link href="#" style={{fontSize:'30px'}}>Zalpa</Nav.Link>
-        <Nav.Link href="#" style={{fontSize:'30px'}}>Slot</Nav.Link>
+        <Nav.Link href="#slot" style={{fontSize:'30px'}}>Slot</Nav.Link>
       </Nav>
     </Container>
   </Navbar>
@@ -39,7 +39,7 @@ function Header(){
       <img src="casino-background.jpg" width="100%" height="100%" ></img>
       <div className="game-start-btn">
         <Button id="game-btn1" variant="warning">Zalpa</Button>{' '}
-        <Button id="game-btn2" variant="warning">SLOT</Button>{' '}
+        <Button id="game-btn2" variant="warning" href='#slot'>SLOT</Button>{' '}
       </div>
     </div>  
   )
@@ -48,14 +48,6 @@ function Zalpa(){
   return(
     <div className="zalpa-part">
       <h1>Zalpa's game</h1>
-      <p>It has to be build</p>
-    </div>
-  )
-}
-function Slot(){
-  return(
-    <div className="slot-part">
-      <h1>Mia's game</h1>
       <p>It has to be build</p>
     </div>
   )

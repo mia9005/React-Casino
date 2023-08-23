@@ -39,7 +39,7 @@ const SlotMachine = () => {
   };
 
   return (
-    <div className='slot'>
+    <div className='slot' id="slot">
       <h1>Slot Machine Game</h1>
       <div className="reels">
         {reels.map((symbolIndex, index) => (
