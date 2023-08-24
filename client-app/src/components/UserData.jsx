@@ -21,7 +21,7 @@ export function UserData({ handleSpin, userData, handleBet }) {
                     id="yourBet"
                     value={userData.bet}
                     onChange={(e) => handleBet(e.target.value)}
-                    className="text-black"
+                    className="text-black w-14 rounded-sm"
                 />
             </p>
             <div className="flex gap-3">
@@ -30,8 +30,6 @@ export function UserData({ handleSpin, userData, handleBet }) {
                 </button>
                 <button className="border p-2">Buy Credits</button>
             </div>
-
-            <span></span>
         </div>
     );
 }

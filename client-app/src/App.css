@@ -1,11 +1,12 @@
 .App {
   text-align: center;
 }
+
 #header {
   position: relative;
   width: 100%;
-  height: 80vh;
 }
+
 /* #background {
   height: 80vh;
   background-position: center;
@@ -21,31 +22,40 @@
   display: flex;
   column-gap: 3vw;
 }
-#game-btn1, #game-btn2 {
+
+#game-btn1,
+#game-btn2 {
   padding: 5%;
   font-size: 50px;
   width: 25vw;
   font-weight: 600;
 }
-#game-btn1:hover, #game-btn2:hover {
+
+#game-btn1:hover,
+#game-btn2:hover {
   background-color: chartreuse;
 }
-.zalpa-part, .slot{
+
+.zalpa-part,
+.slot {
   padding: 10%;
   border: 3px solid gray;
 }
+
 .slot {
-  background-color: rgb(255,192,8);
+  background-color: rgb(255, 192, 8);
   display: flex;
   flex-direction: column;
   align-items: center;
   row-gap: 5vh;
 }
+
 .slot h1 {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 60px;
 }
+
 .reels {
   background-color: yellow;
   border: 5px solid black;
@@ -56,6 +66,7 @@
   column-gap: 2vw;
   width: 60%;
 }
+
 .reel {
   border: 5px solid black;
   background-color: rgb(208, 237, 95);
@@ -63,6 +74,7 @@
   padding: 3%;
   font-size: 100px;
 }
+
 .spin {
   background-color: greenyellow;
   color: black;
@@ -75,10 +87,12 @@
   letter-spacing: 2px;
   border-radius: 1vw;
 }
+
 .spin:hover {
   background-color: rgb(0, 38, 255);
   color: white;
 }
+
 .bet {
   display: flex;
   width: 60%;
@@ -87,19 +101,23 @@
   font-size: 30px;
   font-weight: 600;
 }
+
 .bet p:first-child {
   display: flex;
   column-gap: 1vw;
 }
-p >input {
+
+p>input {
   text-align: center;
 }
+
 .footer {
-  background-color: rgb(33,37,41);
+  background-color: rgb(33, 37, 41);
   color: white;
   padding: 5%;
   font-size: 25px;
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -130,6 +148,7 @@ p >input {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

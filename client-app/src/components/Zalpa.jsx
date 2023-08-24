@@ -84,14 +84,16 @@ export function Zalpa() {
                     alert("You Win!!");
                     let newData = {
                         ...userData,
-                        money: userData.money + userData.bet,
+                        money:
+                            parseInt(userData.money) + parseInt(userData.bet),
                     };
                     setUserData(newData);
                 } else {
                     alert("You Lost!!");
                     let newData = {
                         ...userData,
-                        money: userData.money - userData.bet,
+                        money:
+                            parseInt(userData.money) - parseInt(userData.bet),
                     };
                     setUserData(newData);
                 }
@@ -101,14 +103,16 @@ export function Zalpa() {
                     alert("You Win!!");
                     let newData = {
                         ...userData,
-                        money: userData.money + userData.bet,
+                        money:
+                            parseInt(userData.money) + parseInt(userData.bet),
                     };
                     setUserData(newData);
                 } else {
                     alert("You Lost!!");
                     let newData = {
                         ...userData,
-                        money: userData.money - userData.bet,
+                        money:
+                            parseInt(userData.money) - parseInt(userData.bet),
                     };
                     setUserData(newData);
                 }
@@ -118,14 +122,16 @@ export function Zalpa() {
                     alert("You Win!!");
                     let newData = {
                         ...userData,
-                        money: userData.money + userData.bet,
+                        money:
+                            parseInt(userData.money) + parseInt(userData.bet),
                     };
                     setUserData(newData);
                 } else {
                     alert("You Lost!!");
                     let newData = {
                         ...userData,
-                        money: userData.money - userData.bet,
+                        money:
+                            parseInt(userData.money) - parseInt(userData.bet),
                     };
                     setUserData(newData);
                 }
@@ -135,14 +141,16 @@ export function Zalpa() {
                     alert("You Win!!");
                     let newData = {
                         ...userData,
-                        money: userData.money + userData.bet,
+                        money:
+                            parseInt(userData.money) + parseInt(userData.bet),
                     };
                     setUserData(newData);
                 } else {
                     alert("You Lost!!");
                     let newData = {
                         ...userData,
-                        money: userData.money - userData.bet,
+                        money:
+                            parseInt(userData.money) - parseInt(userData.bet),
                     };
                     setUserData(newData);
                 }
@@ -152,14 +160,16 @@ export function Zalpa() {
                     alert("You Win!!");
                     let newData = {
                         ...userData,
-                        money: userData.money + userData.bet,
+                        money:
+                            parseInt(userData.money) + parseInt(userData.bet),
                     };
                     setUserData(newData);
                 } else {
                     alert("You Lost!!");
                     let newData = {
                         ...userData,
-                        money: userData.money - userData.bet,
+                        money:
+                            parseInt(userData.money) - parseInt(userData.bet),
                     };
                     setUserData(newData);
                 }
@@ -169,14 +179,16 @@ export function Zalpa() {
                     alert("You Win!!");
                     let newData = {
                         ...userData,
-                        money: userData.money + userData.bet,
+                        money:
+                            parseInt(userData.money) + parseInt(userData.bet),
                     };
                     setUserData(newData);
                 } else {
                     alert("You Lost!!");
                     let newData = {
                         ...userData,
-                        money: userData.money - userData.bet,
+                        money:
+                            parseInt(userData.money) - parseInt(userData.bet),
                     };
                     setUserData(newData);
                 }
@@ -186,14 +198,16 @@ export function Zalpa() {
                     alert("You Win!!");
                     let newData = {
                         ...userData,
-                        money: userData.money + userData.bet,
+                        money:
+                            parseInt(userData.money) + parseInt(userData.bet),
                     };
                     setUserData(newData);
                 } else {
                     alert("You Lost!!");
                     let newData = {
                         ...userData,
-                        money: userData.money - userData.bet,
+                        money:
+                            parseInt(userData.money) - parseInt(userData.bet),
                     };
                     setUserData(newData);
                 }
@@ -203,14 +217,16 @@ export function Zalpa() {
                     alert("You Win!!");
                     let newData = {
                         ...userData,
-                        money: userData.money + userData.bet,
+                        money:
+                            parseInt(userData.money) + parseInt(userData.bet),
                     };
                     setUserData(newData);
                 } else {
                     alert("You Lost!!");
                     let newData = {
                         ...userData,
-                        money: userData.money - userData.bet,
+                        money:
+                            parseInt(userData.money) - parseInt(userData.bet),
                     };
                     setUserData(newData);
                 }
@@ -220,14 +236,16 @@ export function Zalpa() {
                     alert("You Win!!");
                     let newData = {
                         ...userData,
-                        money: userData.money + userData.bet,
+                        money:
+                            parseInt(userData.money) + parseInt(userData.bet),
                     };
                     setUserData(newData);
                 } else {
                     alert("You Lost!!");
                     let newData = {
                         ...userData,
-                        money: userData.money - userData.bet,
+                        money:
+                            parseInt(userData.money) - parseInt(userData.bet),
                     };
                     setUserData(newData);
                 }
@@ -237,14 +255,16 @@ export function Zalpa() {
                     alert("You Win!!");
                     let newData = {
                         ...userData,
-                        money: userData.money + userData.bet,
+                        money:
+                            parseInt(userData.money) + parseInt(userData.bet),
                     };
                     setUserData(newData);
                 } else {
                     alert("You Lost!!");
                     let newData = {
                         ...userData,
-                        money: userData.money - userData.bet,
+                        money:
+                            parseInt(userData.money) - parseInt(userData.bet),
                     };
                     setUserData(newData);
                 }
